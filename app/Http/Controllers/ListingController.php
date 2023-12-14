@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class ListingController extends Controller
 {
     public function __invoke()
     {
-        return view('home');
+        return view('listings.index');
     }
 }
